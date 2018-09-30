@@ -1,3 +1,12 @@
+/*
+	This Lib is completely free and open Source for the comunity
+
+	Name : c-TableLib
+	Company : YurgSoft
+	Written by: Simao Gaspar
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
