@@ -12,7 +12,9 @@ List of the data type used in this lib
 
 * Here is one example of how to use the lib
 
-#Demostration 1
+* Demostration 1
+
+
 #include "tableLib.h"
 
 int main(int argc, char **argv){
@@ -73,9 +75,10 @@ int main(int argc, char **argv){
 
 Or you can use this way
 
-#Demostration 2
-#include "tableLib.h"
 
+* Demostration 2
+
+#include "tableLib.h"
 
 int main(int argc, char **argv){
 
