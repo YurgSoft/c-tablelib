@@ -18,7 +18,6 @@ List of the data type used in this lib
 int main(int argc, char **argv){
 
 	Table tabela;
-	tableSetting table_conf;
 	tableRow row;
 
 	tableHeader headerConfig[] = {
@@ -81,7 +80,6 @@ Or you can use this way
 int main(int argc, char **argv){
 
 	Table tabela;
-	tableSetting table_conf;
 	tableRow row;
 
 	tableHeader headerConfig[] = {
@@ -101,11 +99,6 @@ int main(int argc, char **argv){
 
 	tabela.config.number_collum = 3;
 	tabela.config.collumSeting = headerConfig;
-
-	CellData *groupLinha[3];
-	groupLinha[0] = linha1;
-	groupLinha[1] = linha2;
-	groupLinha[2] = linha3;
 
 	CellData *lista[] = {
 		(CellData []){
